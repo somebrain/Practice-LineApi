@@ -13,7 +13,7 @@ foreach ($events as $event) {
     // $bot->replyText($event->getReplyToken(), 'text');
    //replyTextMessage($bot, $event->getReplyToken(), 'TextMessage');
   // replyLocationMessage($bot, $event->getReplyToken(), 'LINE', '東  京都渋谷区渋谷2-21-1 ヒカリエ27階', 35.659025,139.703473);
-replyStickerMessage($bot, $event->getReplyToken(), 2, 28);
+replyStickerMessage($bot, $event->getReplyToken(), 1, 1);
 
 
 }
