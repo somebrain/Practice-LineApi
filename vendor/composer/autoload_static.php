@@ -11,12 +11,25 @@ class ComposerStaticInitc8f87efc6ab58aab8e16477b6609f2ab
         array (
             'LINE\\' => 5,
         ),
+        'A' => 
+        array (
+            'Aura\\Session\\_Config\\' => 21,
+            'Aura\\Session\\' => 13,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'LINE\\' => 
         array (
             0 => __DIR__ . '/..' . '/linecorp/line-bot-sdk/src',
+        ),
+        'Aura\\Session\\_Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aura/session/config',
+        ),
+        'Aura\\Session\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/aura/session/src',
         ),
     );
 
